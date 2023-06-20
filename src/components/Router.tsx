@@ -3,7 +3,7 @@ import Home from "../routes/Home";
 import Auth from "../routes/Auth";
 
 interface IAppRouter {
-  IsLogIn: boolean;
+  IsLogIn: any;
 }
 
 const AppRouter = ({ IsLogIn }: IAppRouter) => {
